@@ -26,5 +26,5 @@ export default function Header() {
   )
 }
 
-
-// MenuItem.jsx => Header.jsx'in iceriklerini olusturmak icin kullanilan componenttir. Propslarla bilgileri gonderdik
+//navbari propslarla olusturduk
+//MenuItem.jsx => Header.jsx'in iceriklerini olusturmak icin kullanilan componenttir. Propslarla bilgileri gonderdik

@@ -1,7 +1,9 @@
 import Link from "next/link";
-import MenuItem from "./MenuItem";
+import MenuItem from "./HeaderItem";
 import { AiFillHome } from "react-icons/ai";
 import { BsFillInfoCircleFill } from "react-icons/bs";
+
+
 
 export default function Header() {
   return (

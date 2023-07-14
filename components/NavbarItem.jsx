@@ -23,3 +23,4 @@ export default function NavbarItem({ title, param }) {
 }
 
 //useSearchParams hook kullanarak Trending ve Top Rated bolumlerine alt cizgi ekledik
+//kendi url yolumuzu olusturduk ve bu url yolunu home sayfasinda genre parametresi olarak kullandik

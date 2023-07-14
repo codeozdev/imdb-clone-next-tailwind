@@ -36,6 +36,7 @@ export default function DarkmodeSwitch() {
 //useState kullanabilmek icin use client ekledik
 //fragment kullandigimiz icin ogeler yan yana geldi
 
+//dark modu kullanabilmek icin useTheme hookunu import ettik
 //dark tema icin iconlari ters koyuyoruz ve dark modda ise light mode iconu, light modda ise dark mode iconu gosteriyoruz
 
-//Hydration failed: Client tarafinda light mode kalirken server tarafinda dark mode oluyor, bu yuzden hata veriyor. Bunun onune gecmek icin useEffect kullaniyoruz
+//Hydration failed: Client tarafinda light mode kalirken server tarafinda dark mode oluyor, bu yuzden hata veriyor. Bunun onune gecmek icin useEffect ve useState kullaniyoruz

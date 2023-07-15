@@ -1,4 +1,4 @@
-import Card from "./Card";
+import ResultsCard from "./ResultsCard";
 
 export default function Results({ results }) {
     return (
@@ -6,7 +6,7 @@ export default function Results({ results }) {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 max-w-full sm:mx-5 py-4">
             {
                 results.map((result) => (
-                    <Card key={result.id} result={result} />
+                    <ResultsCard key={result.id} result={result} />
                 ))
 
             }

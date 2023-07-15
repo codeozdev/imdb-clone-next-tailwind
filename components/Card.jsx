@@ -38,3 +38,5 @@ export default function Card({ result }) {
 //blurDataURL ile resim yüklenene kadar spinner görüntüsü veriyor
 //truncate paragrafları tek satırda gösterir
 //https://tailwindcss.com/docs/line-clamp
+
+// <Link href={`/movie/${result.id}`}> burada daha movie page'ni olusturmadan link olarak ayarladik ve resme tikladigimizda movie page'e gidiyoruz. idler dinamik oldugu icin bizimde dinamik bir sayfa olusturmamiz lazim

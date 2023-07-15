@@ -30,3 +30,6 @@ export default async function Home({ searchParams }) {
 
 //Results componeneti burada kullanmamizin sebebi home sayfasinin sanki dynamic bir sayfa gibi kullanmamizdan kaynaklaniyor
 //http://localhost:3001/?genre=fetchTrending  aslinda kullanilan ana yol home sayfasidir
+
+
+//movie/[id] klasorunde de bir fetch islemi vardir

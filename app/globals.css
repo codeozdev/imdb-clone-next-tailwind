@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+/* firefox için ve bütün browserlar için scroll barı kaldırdık */
+/* scrollbar kalksada kaydırma işlemlerini yapabiliriz
+Fakat overflow: hidden dersek kaydırma işlemlerini yapamayız */
